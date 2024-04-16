@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        Name:<input type="text" id="name"><br><br>
+        Password:<input type="text" id="password"><br><br>
+        <input type="submit" id="submits" onclick="h()" style="margin-left: 100px;;">
+
+    <script>    
+        function h(){
+            var l = document.getElementById("name").value;
+            var p = document.getElementById("password").value;
+            if(l===""){
+                alert("Fill All Fields!");
+                return;
+            }
+            if(p===""){
+                alert("Fill All Fields!");
+                return;
+            }
+        }
+    </script>
+</body>
+</html>
