@@ -1,0 +1,14 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+form{
+    justify-content: center;
+    text-align: center;
+    /* display: grid; */
+    height: 500px;
+    width: 300px;
+    border: 2px solid blueviolet;
+    border: 20px;
+}

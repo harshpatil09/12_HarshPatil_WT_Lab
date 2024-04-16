@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+}
+/* h2{
+    justify-content: center;
+    text-align: center;
+    color: black;
+    
+} */
+table{
+    margin: 150px;
+    justify-content: center;
+    text-align: center;
+    /* display: ; */
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+}
