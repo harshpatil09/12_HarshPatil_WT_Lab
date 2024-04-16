@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="lib.xsl"?>
+<booklibrary>
+    <book>
+        <bookname>XML</bookname>
+        <price>100</price>
+        <author>Atul Khate</author>
+        <publisher>TMH</publisher>
+    </book>
+    <book>
+        <bookname>Java</bookname>
+        <price>1000</price>
+        <author>Sumeru Khade</author>
+        <publisher>W3</publisher>
+    </book>
+    <book>
+        <bookname>C++</bookname>
+        <price>500</price>
+        <author>Kajal Wagh</author>
+        <publisher>Atharva Publications.</publisher>
+    </book>
+</booklibrary>
