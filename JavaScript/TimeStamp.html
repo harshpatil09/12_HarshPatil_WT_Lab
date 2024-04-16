@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp 6</title>
+</head>
+<body>
+    <p id="text" style="color: red;">Hello</p>
+
+    <script>
+        var Fontsize  = 12;
+        const interval=100;
+        function intervalEx(){
+            Fontsize+=2;
+            document.getElementById('text').style.fontSize=Fontsize+"px";
+        }
+        setInterval(intervalEx,interval);
+    </script>
+</body>
+</html>
